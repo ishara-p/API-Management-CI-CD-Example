@@ -235,11 +235,11 @@
 		},
 		{
 			"id": "b9fb1fed-0b72-5ebd-af7d-dbf95b01b810",
-			"headers": "Authorization: Basic bzdiejZKSmFOTUVJVVJQTTZNZHc4OVVKNUZzYTpBbmZmcVVaQ2RaN3hRaURSRjduNGRSY0NYT3Nh\nContent-Type: application/x-www-form-urlencoded\n",
+			"headers": "Authorization: Basic VHU2WlpQcjJIczdhNmlPNkhtSGNrVjA1ZG0wYTpqRXlvM2tqb1dZaUdiYUNGX1B6d0xVdGxZdGNh\nContent-Type: application/x-www-form-urlencoded\n",
 			"headerData": [
 				{
 					"key": "Authorization",
-					"value": "Basic bzdiejZKSmFOTUVJVVJQTTZNZHc4OVVKNUZzYTpBbmZmcVVaQ2RaN3hRaURSRjduNGRSY0NYT3Nh",
+					"value": "Basic VHU2WlpQcjJIczdhNmlPNkhtSGNrVjA1ZG0wYTpqRXlvM2tqb1dZaUdiYUNGX1B6d0xVdGxZdGNh",
 					"description": "",
 					"enabled": true
 				},
