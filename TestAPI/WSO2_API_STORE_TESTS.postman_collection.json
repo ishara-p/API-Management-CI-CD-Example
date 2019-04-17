@@ -353,7 +353,7 @@
 			"data": [],
 			"dataMode": "params",
 			"version": 2,
-			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\ntests[\"Response message contains Version from WSO2 API Manager\"] = responseBody === \"WSO2 API Manager\";\n\n",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\npm.test(\"Response message contains Version from WSO2 API Manager\", function () {pm.expect(pm.response.text()).to.include(\"WSO2 API Manager\");});\n\n",
 			"currentHelper": "normal",
 			"helperAttributes": {},
 			"time": 1521702009027,
