@@ -344,7 +344,7 @@
 					"enabled": true
 				}
 			],
-			"url": "{{gatewayURL}}/t/{{tenantDomain}}/hello/1.0.0/",
+			"url": "{{gatewayURL}}/t/{{tenantDomain}}/healthcheck/1.0.0/",
 			"queryParams": [],
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -353,11 +353,11 @@
 			"data": [],
 			"dataMode": "params",
 			"version": 2,
-			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\ntests[\"Response message contains Hello from WSO2 API Management CI/CD Example\"] = responseBody === \"Hello from WSO2 API Management CI/CD Example\";\n\n",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\ntests[\"Response message contains Version from WSO2 API Manager\"] = responseBody === \"WSO2 API Manager\";\n\n",
 			"currentHelper": "normal",
 			"helperAttributes": {},
 			"time": 1521702009027,
-			"name": "Hello Service - Get",
+			"name": "Healthcheck Service - Get",
 			"description": "",
 			"collectionId": "fc3a3128-d79d-131d-4e27-c9c6f1da1457",
 			"responses": []
